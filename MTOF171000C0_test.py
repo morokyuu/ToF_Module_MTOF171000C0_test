@@ -3,6 +3,7 @@ import time
 
 ## module ID = 0x52 = 82d
 ## 100kHz clk max
+## For uart RXTpin is used for ChipSelect-Pin at I2C mode.
 i2c = I2C(0,scl=Pin(17),sda=Pin(16),freq=100000)
 
 led = Pin(25, Pin.OUT)
