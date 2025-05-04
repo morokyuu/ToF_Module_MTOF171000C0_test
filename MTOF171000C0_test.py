@@ -1,6 +1,11 @@
 from machine import Pin, I2C
 import time
 
+## reference URL
+## https://www.socle-tech.com/doc/IC%20Channel%20Product/ToF%20Module%20MTOF171010C0%20Application%20Notes.pdf
+## https://www.socle-tech.com/doc/IC%20Channel%20Product/MTOF171000C0%20ToF%20module%20specification.pdf
+## https://docs.micropython.org/en/latest/library/machine.I2C.html#machine-i2c
+
 ## module ID = 0x52 = 82d
 ## 100kHz clk max
 ## For uart RXTpin is used for ChipSelect-Pin at I2C mode.
